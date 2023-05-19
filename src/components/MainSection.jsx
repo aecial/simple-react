@@ -1,4 +1,5 @@
 import React from "react";
+import Fetch from "./Fetch";
 
 const MainSection = () => {
   return (
@@ -6,18 +7,14 @@ const MainSection = () => {
       <main>
         <div className="hero-div">
           <div className="hero-pic-container">
-            <img
-              className="my-pic"
-              src="src\assets\my-pic.jpg"
-              alt="my-pic"
-            ></img>
+            <Fetch />
           </div>
           <div className="btn-div">
-            <button className="btn-cop">
-              <i class="fa-solid fa-copy"></i>
+            <button className="btn-copy">
+              <i className="fa-solid fa-copy"></i>
             </button>
             <button className="btn-next">
-              <i class="fa-solid fa-arrows-rotate"></i>
+              <i className="fa-solid fa-arrows-rotate"></i>
             </button>
           </div>
         </div>
